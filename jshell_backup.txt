@@ -1,0 +1,90 @@
+System.out.println("Hello World!");
+void helloworld() {
+    System.out.println("Hello World!");
+}
+helloworld();
+void sayHelloWorldTwice() {
+    System.out.println("Hello World!");
+    System.out.println("Hello World!");
+}
+sayHelloWorldTwice()
+for (int i = 0; i < 10; i++) {
+    sayHelloWorldTwice();
+}
+sayHelloWorldTwice()
+sayHelloWorld(3);
+sayHelloWorld(18);
+void sayHelloWorld(int count) {
+    for (int i = 0; i < count; i++) {
+        System.out.println("Hello World!!!");
+    }
+}
+sayHelloWorld(15);
+void printSquaresOfNumbers(int num) {
+    for (int i = 1; i <= num; i++) {
+        System.out.println(i * i);
+    }
+}
+printSquaresOfNumbers(10);
+printSquaresOfNumbers(100);
+1 + 1
+7 * 11 * 13 * 17
+7 * 11 * 13 * 19
+7 * 11 * 13
+float a = 1.3f;
+double b = 1.3;
+a == b
+a - b
+a + b
+b - a
+void gugudan(int num) {
+    for (int i = 1; i <= 9; i++) {
+        System.out.printf("%d X %d = %d", num, i, num * i).println();
+    }
+}
+gugudan(5);
+gugudan(50);
+void gugudan() {
+    for (int i = 1; i <= 9; i++) {
+        System.out.printf("%d X %d = %d", 5, i, 5 * i).println();
+    }
+}
+gugudan();
+gugudan(15);
+int multiply(int a, int b) {
+    return a * b;
+}
+int c = multiply(5, 15);
+c
+c
+multiply(5, 15);
+Math.min(5, 15);
+int multiply(int a) {
+    return multiply(5, a);
+}
+int d = multiply(3);
+d
+3
+$41
+Country ctr;
+ctr
+Country india = new Country();
+1
+class Planet {
+    void revolve() {
+        System.out.println("Revolving...");
+    }
+}
+earth
+Planet earth = new Planet();
+earth.revolve();
+Planet venus = new Planet();
+venus.revolve();
+earth
+class Country {
+    void comingSoon() {
+        System.out.println("Coming...");
+    }
+}
+Country usa = new Country();
+usa.comingSoon()
